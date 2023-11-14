@@ -6,6 +6,7 @@ $db = new Database();
 $connection = $db->getConnection();
 $student = new Student($db);
 
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -9,7 +9,7 @@ include_once("../province.php");
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $data = [    
+    $data = [ 
     'student_number' => $_POST['student_number'],
     'first_name' => $_POST['first_name'],
     'middle_name' => $_POST['middle_name'],

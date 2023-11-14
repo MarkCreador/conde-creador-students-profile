@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="hidden" name="id" value="<?php echo $townData['id']; ?>">
         
         <label for="first_name">Town City Name:</label>
-        <input type="text" name="town_name" value="<?php echo $towntData['name']; ?>">
+        <input type="text" name="town_name" value="<?php echo $townData['name']; ?>">
         
         
         <input type="submit" value="Update">
