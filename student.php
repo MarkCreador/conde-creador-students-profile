@@ -125,6 +125,7 @@ class Student {
     /*
         sample simple tests
     */
+
     public function testCreateStudent() {
         $data = [
             'student_number' => 'S12345',
