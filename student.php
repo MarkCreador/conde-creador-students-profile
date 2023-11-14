@@ -125,6 +125,7 @@ class Student {
     /*
         sample simple tests
     */
+
     public function testCreateStudent() {
         $data = [
             'student_number' => 'S12345',
@@ -177,7 +178,7 @@ class Student {
     }
 }
 
-
+/*
 $student = new Student(new Database());
 
 // Test the create method
@@ -200,5 +201,5 @@ $student->testUpdateStudent($student_id, $update_data);
 
 // Test the delete method with the created student ID
 $student->testDeleteStudent($student_id);
-
+*/
 ?>
